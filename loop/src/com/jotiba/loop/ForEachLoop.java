@@ -4,7 +4,6 @@ public class ForEachLoop {
     /*Psuedo code:
          write a method to print a numbers till 10 starting from 1.
          print the number using loop.
-     }
      */
 
     private void printNo(int...nos) {
