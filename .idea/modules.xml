@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/conditional-statements/conditional-statements.iml" filepath="$PROJECT_DIR$/conditional-statements/conditional-statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-examples.iml" filepath="$PROJECT_DIR$/.idea/java-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loop/loop.iml" filepath="$PROJECT_DIR$/loop/loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operators-demo/operators-demo.iml" filepath="$PROJECT_DIR$/operators-demo/operators-demo.iml" />
+    </modules>
+  </component>
+</project>
