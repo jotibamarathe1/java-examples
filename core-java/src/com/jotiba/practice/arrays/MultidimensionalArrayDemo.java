@@ -26,17 +26,17 @@ public class MultidimensionalArrayDemo {
         System.out.println("Size of array is: " + marks.length);
 
         //while loop demo for array
-//        System.out.println("Demo of while loop:");
-//        int i = 0;
-//        while (i < marks.length) {
-//            i++;
-//            int j = 0;
-//            while (j < marks.length) {
-//                j++;
-//                System.out.print(marks[i][j] + "\t");
-//                  }
-//          System.out.println();
-//            }
+        System.out.println("Demo of while loop:");
+        int i = 0;
+        while (i < marks.length) {
+            i++;
+            int j = 0;
+            while (j < marks.length) {
+                j++;
+                System.out.print(marks[i][j] + "\t");
+                  }
+          System.out.println();
+            }
 
         //for loop demo for array
         System.out.println("-----------------------------");
