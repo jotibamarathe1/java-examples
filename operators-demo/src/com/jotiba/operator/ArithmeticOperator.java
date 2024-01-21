@@ -34,19 +34,16 @@ public class ArithmeticOperator {
 
         System.out.println("Enter two numbers");
         Scanner sc = new Scanner(System.in);
-        int firstNumber = sc.nextInt();
-        int secondNumber = sc.nextInt();
+        String numberOne = sc.nextLine();
+        String numberTwo = sc.nextLine();
 
         ArithmeticOperator ArithmeticOperator = new ArithmeticOperator();
-        ArithmeticOperator.firstNumber = firstNumber;
-        ArithmeticOperator.secondNumber = secondNumber;
+        ArithmeticOperator.firstNumber = Integer.valueOf(numberOne);
+        ArithmeticOperator.secondNumber = Integer.valueOf(numberTwo);
 
         ArithmeticOperator.addition();
         ArithmeticOperator.subtraction();
         ArithmeticOperator.multiplication();
-//        ArithmeticOperator.division();
-//        ArithmeticOperator.modulation();
-
 
 
         if (ArithmeticOperator.secondNumber != 0 && ArithmeticOperator.firstNumber > 0){
