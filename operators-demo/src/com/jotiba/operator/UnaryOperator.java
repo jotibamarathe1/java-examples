@@ -5,24 +5,6 @@ import java.util.Scanner;
 public class UnaryOperator {
     int input = 0;
 
-    public static void main(String[] args) {
-
-        System.out.println("Enter integer value");
-        Scanner sc = new Scanner(System.in);
-        String inputNumber = sc.nextLine();
-
-        UnaryOperator UnaryOperator = new UnaryOperator();
-        int input = Integer.valueOf(inputNumber);
-
-        UnaryOperator.postIncrement(input);
-        UnaryOperator.preIncrement(input);
-        UnaryOperator.postDecrement(input);
-        UnaryOperator.preDecrement(input);
-        UnaryOperator.complementRepresentation(input);
-        UnaryOperator.negationOperator(true);
-
-    }
-
     public void postIncrement(int input) {
         System.out.println("Post increment: " + input++);
         System.out.println("After post increment: " + input);
@@ -50,5 +32,24 @@ public class UnaryOperator {
 
     public void negationOperator(boolean flag) {
         System.out.println("negation: " + !flag);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Enter integer value");
+        Scanner sc = new Scanner(System.in);
+        String inputNumber = sc.nextLine();
+
+        UnaryOperator UnaryOperator = new UnaryOperator();
+        int input = Integer.valueOf(inputNumber);
+
+        UnaryOperator.postIncrement(input);
+        UnaryOperator.preIncrement(input);
+
+        UnaryOperator.postDecrement(input);
+        UnaryOperator.preDecrement(input);
+
+        UnaryOperator.complementRepresentation(input);
+        UnaryOperator.negationOperator(true);
+
     }
 }
