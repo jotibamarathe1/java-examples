@@ -3,13 +3,13 @@ package com.jotiba.practice.arrays;
 public class ArrayDemo {
     public static void main(String[] args) {
         int marks[] = new int[5];
-        marks[0] = 45;
+        marks[0] = 55;
         marks[1] = 57;
-        marks[2] = 98;
-        marks[3] = 38;
-        marks[4] = 76;
+        marks[2] = 95;
+        marks[3] = 87;
+        marks[4] = 83;
 
-        System.out.println("Size of array is: " + marks.length);
+        System.out.println("Array size is: " + marks.length);
 
         //while loop demo for array
         System.out.println("Demo of while loop:");
@@ -29,8 +29,8 @@ public class ArrayDemo {
         //for each loop demo for array
         System.out.println("-----------------------------");
         System.out.println("Demo of for-each loop");
-        for (int number : marks) {
-            System.out.println(number);
+        for (int studentMarks : marks) {
+            System.out.println(studentMarks);
         }
     }
 }
